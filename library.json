@@ -1,6 +1,6 @@
 {
   "name": "lz4",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "keywords": "lz4, compress, esp32, esp826, espressif",
   "description": "lz4 data compress library, forked from liux-pro, which is a fork from awesome https://github.com/lz4/lz4",
   "repository": {
@@ -11,6 +11,7 @@
   "platforms": "*",
   "build": {
     "flags": [
+      "-I lib",
       "-DLZ4_HEAPMODE"
     ],
     "includeDir": "lib",
